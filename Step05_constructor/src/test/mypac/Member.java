@@ -15,8 +15,9 @@ public class Member {
 
 		
 		//3개의 인자를 전달받을 준비가 된 생성자
-	public Member(int num, String name, String addr) {//생성자에게도 매개 변수를 선언할 수 있다.
+	//public Member(int num, String name, String addr) {//생성자에게도 매개 변수를 선언할 수 있다.
 			//생성자의 인자로 전달받은 값을 필드에 저장하기
+		public class Member {	
 			this.num=num;
 			this.name=name;
 			this.addr=addr;
